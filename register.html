@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Register</title>
+ <meta name="viewport" content="width=device-width, initial-scale=0.5"> 
+
+<link rel="icon" type="image/x-icon" href="logo/favicon.png">
+<style>
+	.bar{
+        background-color:hsl(62, 95%, 71%);
+		overflow:hidden;
+        left: 0;
+		width:100%;
+        top: 0;
+        position: fixed;
+		border-bottom: 1px solid black;
+        }
+    .bar a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+		padding: 21;
+        float:right;
+		font-weight:1000;
+		
+		
+    }
+	.bar a:hover{
+		background-color:rgb(237, 233, 0);
+		color:#003;}
+	.bar .img {
+		float: left;
+		height: 0;
+		padding: 15;
+	}
+	.bar .img:hover{
+		background-color: hsl(62, 95%, 71%);
+	}
+	body{
+		background-image: url("gifs/ArcticEnergeticHuemul-mobile.gif");
+		background-repeat: no-repeat;
+		background-size:cover;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		margin:0;
+		font-family:'PT Sans', sans-serif;
+		background-color: rgba(255, 255, 255, 0.5);
+	}		
+
+/*end bar*/
+	
+	h2{
+		color:rgb(74, 74, 0);
+        background-color: rgb(183, 200, 0);
+	text-align:center;
+	padding: 20;
+	
+	margin-top:100}
+	.form{
+			border: 5px solid rgb(255, 204, 153) ;
+			margin-top:10%;
+			margin-left:100;
+			margin-right:100;
+			text-align:center;
+			padding: 20;
+			size:100;
+			background-color:rgba(202, 195, 0, 0.409);
+            border-radius: 50px;}
+	.form input{margin: 20;
+		padding: 15;
+		width: 40%;
+		align-items: center;
+        border-radius: 23px;
+        border:none;
+	}
+	
+		
+	.login{
+		background:rgb(70, 74, 0);
+		color: hsl(21, 90%, 10%);
+		padding: 10;
+		border-radius:6px;
+        background-image: linear-gradient(to bottom,rgb(255, 204, 153), rgb(255, 204, 0));
+        border: none;
+        cursor: pointer;}
+	
+</style>
+        
+</head>
+
+<body bgcolor="#D6DCF8">
+
+	<header>
+		<div class="bar">
+			<a href="register.html">REGISTER</a>
+			<a href="about.html">ABOUT US</a>
+			<a href="contact.html">CONTACT US</a>
+			<a href="apple.html">PHONES</a>
+			<a href="index.html">HOME</a>
+			<a class="img" href="index.html"><img  src="logo/logo.png" width="100" height="30" ></img></a>
+		</div>
+		</header>
+
+		<h2>LOGIN OR FILL OUT THE FOLLOWING FORM TO REGISTER</h2>
+		<form> 
+			<div class="form">
+			<input placeholder="Name" type="text"><br>
+			<input placeholder="Address" type="text"><br>
+			<label for="area"><b>CHOOSE AREA</b> :</label>
+			<select name="area" selected="asia">
+				<option value="asia">KANDY</option>
+				<option >COLOMBO</option>
+				<option >GALLE</option>
+			</select><br>
+			
+			<input placeholder="Age" type="number"><br>
+			<input placeholder="DOB" type="date"><br>
+			<input placeholder="Email" type="email"><br>
+			<input placeholder="Password" type="password"><br>
+			<fieldset style="border: 1px solid rgb(80, 53, 0) ;">
+				 <legend><b>GENDER</b></legend>
+				 Male <input style="width: 10%;" type="radio" name="gender">Female<input style="width: 10%;" type="radio" name="gender">Other<input style="width: 10%;" type="radio" name="gender">
+			</fieldset>
+			<br>
+			<br>
+			<button class="login" type="submit" name="submit">Register</button>
+			<a href="login.html"><button class="login" type="button" name="submit">Login</button></a>
+			
+			</div>
+
+		</form>
+</body>
+</html>
+

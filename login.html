@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Login</title>
+ <meta name="viewport" content="width=device-width, initial-scale=0.5"> 
+
+<link rel="icon" type="image/x-icon" href="logo/logo.png">
+<style>
+	.bar{
+        background-color:hsl(62, 95%, 71%);
+		overflow:hidden;
+        left: 0;
+		width:100%;
+        top: 0;
+        position: fixed;
+		border-bottom: 1px solid black;
+        }
+    .bar a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+		padding: 21;
+        float:right;
+		font-weight:1000;
+		
+		
+    }
+	.bar a:hover{
+		background-color:rgb(237, 233, 0);
+		color:#003;}
+	.bar .img {
+		float: left;
+		height: 0;
+		padding: 15;
+	}
+	.bar .img:hover{
+		background-color: hsl(62, 95%, 71%);
+	}
+	body{
+		background-image: url("gifs/ArcticEnergeticHuemul-mobile.gif");
+		background-repeat: no-repeat;
+		background-size:cover;
+		font-family:'PT Sans', sans-serif;
+		margin:0;
+	}	
+
+/*end bar*/
+	
+	h2{
+		color:rgb(74, 74, 0);
+        background-color: rgb(183, 200, 0);
+	text-align:center;
+	padding: 20;
+	
+	margin-top:100}
+	.form{
+			border: 5px solid rgb(255, 204, 153) ;
+            border-radius: 50px;
+			margin-top:10%;
+			margin-left:100;
+			margin-right:100;
+			text-align:center;
+			padding: 20;
+			float: center;
+			size:100;
+			background-color:rgba(202, 195, 0, 0.409)}
+	.form input{margin: 20;
+		padding: 15;
+		align-items: center;
+        border-radius: 23px;
+        border:none;
+	}
+	
+		
+		
+	.login{
+		background:rgb(70, 74, 0);
+		  background-image: linear-gradient(to bottom,rgb(255, 204, 153), rgb(255, 204, 0));
+		padding: 10;
+		border-radius:6px;
+        border: none;}
+</style>
+        
+</head>
+
+<body bgcolor="#D6DCF8">
+	<header>
+		<div class="bar">
+			<a href="register.html">REGISTER</a>
+			<a href="about.html">ABOUT US</a>
+			<a href="contact.html">CONTACT US</a>
+			<a href="apple.html">PHONES</a>
+			<a href="index.html">HOME</a>
+			<a class="img" href="index.html"><img  src="logo/logo.png" width="100" height="30" ></img></a>
+		</div>
+		</header>
+    
+<h2>LOG IN TO YOUR ACCOUNT</h2>
+<form> 
+	<div class="form">
+	 <input placeholder="Email" type="email"><br>
+     <input placeholder="Password" type="password"><br><br><br>
+    <input type="checkbox">REMEMBER ME<br><br>
+    
+    <button class="login" type="submit" >Login</button>
+    
+    </div>
+</form>
+</body>
+</html>
+
